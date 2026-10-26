@@ -1,0 +1,7 @@
+site_name: "Why Our AI Website Editor Writes Lists, Not Files"
+site_author: Zahi Raifer
+docs_dir: docs
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
