@@ -2,7 +2,7 @@
 
 *By Zahi Raifer*
 
-Most people picture an AI website builder as a model that rewrites your page every time you ask for something. You type "make the button green," and the model hands back a fresh copy of the whole page with, you hope, only the button changed. That is the design we deliberately avoided at [Orivox](https://orivox.org). This piece explains the one decision that shapes everything else in our editor: the model never touches a file. It only writes a short list of instructions, and ordinary Python code carries them out.
+Most people picture an AI website builder as a model that rewrites your page every time you ask for something. You type "make the button green," and the model hands back a fresh copy of the whole page with, you hope, only the button changed. That is the design we deliberately avoided at [Orivox](https://www.orivox.pro/). This piece explains the one decision that shapes everything else in our editor: the model never touches a file. It only writes a short list of instructions, and ordinary Python code carries them out.
 
 ## The problem with "just regenerate it"
 
